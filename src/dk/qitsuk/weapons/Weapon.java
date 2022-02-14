@@ -1,8 +1,8 @@
 package dk.qitsuk.weapons;
 
 public class Weapon {
-    private String name;
-    private int levelRequirement;
+    public String name;
+    public int levelRequirement;
     public enum weaponType {
         AXE,
         BOW,
@@ -11,5 +11,8 @@ public class Weapon {
         STAFF,
         SWORD,
         WAND
+    }
+
+    public void setWeaponType(weaponType weaponType) {
     }
 }

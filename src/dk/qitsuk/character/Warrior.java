@@ -15,12 +15,12 @@ public class Warrior extends Character {
     }
 
     @Override
-    public void equipWeapon() {
-
+    public String equipWeapon() {
+        return "";
     }
 
     @Override
-    public void equipArmor() {
-
+    public String equipArmor() {
+        return "";
     }
 }

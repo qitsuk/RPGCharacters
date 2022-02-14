@@ -45,9 +45,9 @@ public abstract class Character {
 
     public abstract void levelUp();
 
-    public abstract void equipWeapon();
+    public abstract String equipWeapon();
 
-    public abstract void equipArmor();
+    public abstract String equipArmor();
 
     @Override
     public String toString() {
